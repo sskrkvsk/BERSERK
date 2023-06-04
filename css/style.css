@@ -1,0 +1,71 @@
+.d-block {
+  height: 300px;
+  width: 100vw;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.img-fluid {
+  opacity: 0.4;
+}
+
+.examples {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.dif {
+  object-position: center top;
+}
+
+.styling {
+  border: 5px solid transparent;
+}
+
+.highlight-image {
+  animation: highlight 2s;
+}
+
+@keyframes highlight {
+  0% {
+    border: 2px solid transparent;
+  }
+  50% {
+    border: 2px solid rgba(255, 255, 255, 0.534);
+    background-color: rgba(255, 255, 255, 0.486);
+    padding: 20px;
+  }
+  100% {
+    border: 2px solid transparent;
+  }
+}
+
+.animes {
+  width: 400px;
+}
+
+@media (min-width: 700px) {
+  .animes {
+    width: 500px;
+  }
+}
+
+#back-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .nav-link {
+    padding: 5px;
+  }
+
+  .nav {
+    justify-content: center;
+    width: 100%;
+  }
+}
