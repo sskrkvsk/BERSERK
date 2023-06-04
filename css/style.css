@@ -43,7 +43,13 @@
 }
 
 .animes {
-  width: 500px;
+  width: 400px;
+}
+
+@media (min-width: 700px) {
+  .animes {
+    width: 500px;
+  }
 }
 
 #back-to-top-btn {
@@ -51,4 +57,15 @@
   bottom: 20px;
   right: 20px;
   display: none;
+}
+
+@media (max-width: 500px) {
+  .nav-link {
+    padding: 5px;
+  }
+
+  .nav {
+    justify-content: center;
+    width: 100%;
+  }
 }
